@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h1><%= @cocktail.name %></h1>
+      <ul class="show-details-block">
+        <li class="list-group-item">
+          <p><%= @cocktail.name %></p>
+        </li>
+      </ul>
+      <%= link_to "Return to all Cocktails", cocktails_path(@cocktail), class: "btn btn-primary"%>
+    </div>
+  </div>
+</div>
